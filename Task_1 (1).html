@@ -1,0 +1,31 @@
+<html> 
+<head>
+<title> USER DETAILS </title>
+<link rel="stylesheet" type="Text/css" href="Task_1.css">
+<body>
+
+<center>
+<h1> User Information </h1>
+<form action = "search.php" method = "POST" autocomplete="off" autocomplete="OFF">
+<input type="Search" name="Search" placeholder="Search by Email ID" required >
+<input type="Submit" name="Submit">
+</form>
+
+<form name = "insertion" action = "Text_1.php" method="POST" autocomplete="OFF" >
+<h3>Name<font color=red>*</font>:<input type="text" name="User_name" value="" required ></h3>
+<h3>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Email ID<font color=red>*</font> :<input type="email" name="Email_id" value="" maxlength="40" REQUIRED ></h3>
+<h3>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Mobile Number:
+  <select name="Mobile Number">
+    <option value="India">+91</option>
+      </select>
+	  &nbsp; <input type="text" name="Mobile_no" value ="" maxlength="10" pattern="[6-9]{1}[0-9]{9}" required ></h3>
+<h3>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Social ID<font color=red>*</font> :<input type="text" name="Social_id" value="" required ></h3>
+<h3>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Password : <input type="Password" name="Password" value =""  required ></h3>
+<button type="Submit">Submit</button>
+
+
+  
+</form>
+</center>
+</body>
+</html>
